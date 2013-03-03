@@ -1,0 +1,6 @@
+registration_page:
+  firstname: ~first_name
+  lastname: ~last_name
+  email: ~email_address
+  password: rice8080
+  password_confirm: rice8080
