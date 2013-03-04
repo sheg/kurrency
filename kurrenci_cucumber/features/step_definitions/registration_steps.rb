@@ -11,6 +11,6 @@ When(/^I fill out the registration form with random data$/) do
 
 end
 
-Then(/^I should see "(.*?)"$/) do |arg1|
-pending # express the regexp above with the code you wish you had
+Then(/^I should see "(.*?)"$/) do |expected_value|
+  @current_page.text.should include expected_value
 end

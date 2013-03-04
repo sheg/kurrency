@@ -11,5 +11,6 @@ class RegistrationPage
 
   def register_new_user(data = {})
     populate_page_with data_for :registration_page
+    create_account
   end
 end
